@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONARCH | Dossiê: Titanus Kong</title>
+    <style>
+        :root {
+            --neon-blue: #00bfff;
+            --bg-dark: #05070a;
+            --text-light: #dcdcdc;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            background-image: linear-gradient(rgba(0, 191, 255, 0.03) 1px, transparent 1px);
+            background-size: 40px 40px;
+            color: var(--text-light);
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 80px 20px 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        nav {
+            background: rgba(0, 0, 0, 0.95);
+            width: 100%;
+            position: fixed;
+            top: 0;
+            border-bottom: 2px solid var(--neon-blue);
+            padding: 15px 0;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        nav a { color: var(--neon-blue); text-decoration: none; margin: 0 15px; font-weight: bold; }
+
+        .dossier {
+            background: rgba(15, 20, 25, 0.9);
+            border: 1px solid var(--neon-blue);
+            max-width: 800px;
+            padding: 40px;
+            box-shadow: 0 0 15px rgba(0, 191, 255, 0.1);
+        }
+
+        h1 { color: var(--neon-blue); border-bottom: 1px solid var(--neon-blue); text-transform: uppercase; }
+        .highlight { color: var(--neon-blue); font-weight: bold; }
+        .data-table { width: 100%; margin: 20px 0; border: 1px solid #333; }
+        td { padding: 10px; border: 1px solid #333; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="monarch.html">A Monarch</a>
+        <a href="kaijus.html">O que são Kaijus?</a>
+        <a href="godzilla.html">Ficha Godzilla</a>
+        <a href="kong.html">Ficha Kong</a>
+    </nav>
+
+    <div class="dossier">
+        <h1>Arquivo #002: Titanus Kong</h1>
+        
+        <h2>01. Origem: O Último de Sua Estirpe</h2>
+        <p>Kong é um sobrevivente. Originário de uma linhagem de grandes primatas da <span class="highlight">Terra Oca</span>, ele foi o único a escapar para a superfície (Ilha da Caveira) após uma guerra ancestral entre sua espécie e os espécimes *Titanus Gojira*. Sua evolução é marcada por uma adaptação extraordinária ao ambiente de isolamento.</p>
+
+        <h2>02. Capacidades Físicas</h2>
+        <p>Ao contrário dos Titãs radioativos, a força de Kong é puramente cinética e biomecânica:
+            <ul>
+                <li><strong>Agilidade de Primata:</strong> Possui mobilidade superior e capacidade de raciocínio tático em combate.</li>
+                <li><strong>Adaptabilidade de Ferramentas:</strong> Kong é o único Titã documentado capaz de construir e utilizar ferramentas (como o Machado de Energia, forjado a partir de espinhos dorsais de Godzilla).</li>
+            </ul>
+        </p>
+
+        <h2>03. Ponto de Interesse: Inteligência e Empatia</h2>
+        <p>O que separa Kong da maioria dos Titãs é sua <span class="highlight">capacidade cognitiva</span>. Ele exibe traços de empatia e comunicação não verbal com humanos, estabelecendo laços afetivos (ex: caso Jia). Ele não responde apenas a impulsos naturais, mas a decisões conscientes, o que o torna um aliado em potencial extremamente complexo para a Monarch.</p>
+
+        <table class="data-table">
+            <tr><td><strong>Altura:</strong> 102 metros</td><td><strong>Classificação:</strong> Protetor da Terra Oca</td></tr>
+            <tr><td><strong>Habitat:</strong> Terra Oca / Ilha da Caveira</td><td><strong>Status:</strong> Ativo</td></tr>
+        </table>
+    </div>
+
+</body>
+</html>

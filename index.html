@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONARCH | Centro de Comando</title>
+    <style>
+        body {
+            /* Imagem atualizada */
+            background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/7b134019492723.562db56b9b0cc.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            
+            color: white; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+
+        /* Navbar Profissional */
+        nav {
+            background: rgba(0, 0, 0, 0.9);
+            width: 100%;
+            position: fixed;
+            top: 0;
+            padding: 20px 0;
+            border-bottom: 2px solid #00bfff;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #00bfff;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: white;
+            text-shadow: 0 0 10px #00bfff;
+        }
+
+        .content {
+            background: rgba(0, 0, 0, 0.65);
+            padding: 40px;
+            border-radius: 15px;
+            max-width: 700px;
+            text-align: center;
+            border: 1px solid rgba(0, 191, 255, 0.4);
+            backdrop-filter: blur(8px); /* Desfoque tático para leitura clara */
+        }
+
+        h1 { color: #00bfff; margin-top: 0; letter-spacing: 2px; }
+        p { line-height: 1.6; color: #e0e0e0; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="monarch.html">A Monarch</a></li>
+            <li><a href="kaijus.html">O que são Kaijus?</a></li>
+            <li><a href="godzilla.html">Godzilla</a></li>
+            <li><a href="kong.html">Kong</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <h1>PORTAL DE CONTENÇÃO MONARCH</h1>
+        <p>Bem-vindo ao centro de comando digital. Aqui você encontrará dados confidenciais sobre as criaturas que dominavam a Terra muito antes da humanidade.</p>
+        <p>Navegue pelos módulos de inteligência acima para entender nossa missão e monitorar os alvos designados.</p>
+    </div>
+    
+</body>
+</html>

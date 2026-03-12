@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONARCH - Dossier: Titanus Godzilla</title>
+    <style>
+        :root {
+            --monarch-blue: #00bfff;
+            --alert-red: #ff4500;
+            --terminal-bg: #0a0e14;
+            --text-gray: #dcdcdc;
+        }
+
+        body {
+            /* Imagem de fundo aplicada */
+            background-image: url('https://media.craiyon.com/2025-10-10/6fsy2BEzSaG7k8FJIIHYNA.webp');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            
+            color: var(--text-gray);
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 80px 20px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Navbar Monarch */
+        nav {
+            background: rgba(0, 0, 0, 0.9);
+            width: 100%;
+            position: fixed;
+            top: 0;
+            border-bottom: 2px solid var(--monarch-blue);
+            padding: 15px 0;
+            z-index: 1000;
+            text-align: center;
+        }
+
+        nav a {
+            color: var(--monarch-blue);
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* Container do Dossier */
+        .dossier {
+            background: rgba(16, 24, 32, 0.85); /* Leve transparência para integrar com a imagem */
+            border: 1px solid var(--monarch-blue);
+            border-left: 10px solid var(--monarch-blue);
+            max-width: 800px;
+            padding: 30px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(4px); /* Efeito profissional de desfoque */
+        }
+
+        h1 {
+            color: var(--monarch-blue);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            border-bottom: 1px solid var(--monarch-blue);
+            padding-bottom: 10px;
+        }
+
+        .status-box {
+            border: 1px solid var(--alert-red);
+            color: var(--alert-red);
+            padding: 10px;
+            display: inline-block;
+            margin-bottom: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .section-title {
+            color: var(--monarch-blue);
+            font-weight: bold;
+            margin-top: 25px;
+            display: block;
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 8px;
+            border: 1px solid #333;
+        }
+
+        .highlight {
+            color: #fff;
+            background: rgba(0, 191, 255, 0.2);
+            padding: 2px 5px;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.8em;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="monarch.html">Institucional</a>
+        <a href="kaijus.html">Banco de Dados</a>
+    </nav>
+
+    <div class="dossier">
+        <div class="status-box">Status: Ativo | Classe: Alfa</div>
+        <h1>Arquivo #001: Godzilla</h1>
+        
+        <p><strong>Nomenclatura Científica:</strong> <span class="highlight">Titanus Godzilla</span></p>
+
+        <span class="section-title">01. Origem e Ecologia</span>
+        <p>
+            Godzilla não é um mutante, mas um sobrevivente do período Permiano. Ele evoluiu em uma era onde a radiação atmosférica era abundante. Com a redução dessa energia na superfície, ele migrou para as fossas abissais e bolsões da <span class="highlight">Terra Oca</span>, onde se alimenta de radiação geotérmica e nuclear natural.
+        </p>
+
+        <span class="section-title">02. Arsenal Bio-Atômico</span>
+        <p>
+            O sistema interno de Godzilla atua como um reator biológico de fusão. 
+            <ul>
+                <li><strong>Sopro Atômico:</strong> Canalização de plasma ionizado através de glândulas na garganta. A ativação é precedida por luminescência nas placas dorsais (efeito Cherenkov).</li>
+                <li><strong>Pulso Nuclear:</strong> Capacidade de liberar energia acumulada em uma onda de choque térmica omnidirecional.</li>
+            </ul>
+        </p>
+
+        <span class="section-title">03. Análise de Comportamento (Interessante)</span>
+        <p>
+            Diferente de outros Titãs que buscam destruição ou território, o "Ponto de Interesse" de Godzilla é o seu papel como <span class="highlight">Regulador Global</span>. Ele possui uma percepção bioacústica planetária: ele "sente" desequilíbrios na biosfera. Quando um Titã invasor (como o Espécime Zero) ameaça o ecossistema, Godzilla intervém não por malícia, mas por uma programação biológica de manutenção da ordem natural.
+        </p>
+
+        <table>
+            <tr>
+                <td><strong>Altura:</strong> 119.8 metros</td>
+                <td><strong>Peso:</strong> 99.634 toneladas</td>
+            </tr>
+            <tr>
+                <td><strong>Fonte de Energia:</strong> Radiação Geotérmica</td>
+                <td><strong>Nível de Ameaça:</strong> Protector / Alfa</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        PROPRIEDADE DA MONARCH SCIENCES - ACESSO RESTRITO A AGENTES NÍVEL 4
+    </footer>
+
+</body>
+</html>
